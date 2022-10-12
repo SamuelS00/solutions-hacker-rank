@@ -17,9 +17,5 @@ function diagonalDifference(arr) {
 }
 
 console.time();
-diagonalDifference(arr3x3);
-console.timeEnd();
-
-console.time();
 diagonalDifference2(arr3x3);
 console.timeEnd();
