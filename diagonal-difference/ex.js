@@ -15,7 +15,3 @@ function diagonalDifference(arr) {
 
   return Math.abs(leftDiagonal - rightDiagonal);
 }
-
-console.time();
-diagonalDifference2(arr3x3);
-console.timeEnd();
