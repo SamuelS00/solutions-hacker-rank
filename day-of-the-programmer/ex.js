@@ -9,9 +9,3 @@ function dayOfProgrammer(year) {
     ? `12.09.${year}` 
     : `13.09.${year}`;
 }
-
-console.log(dayOfProgrammer(1800))
-console.log(dayOfProgrammer(2016))
-console.log(dayOfProgrammer(2017))
-console.log(dayOfProgrammer(1900))
-console.log(dayOfProgrammer(1917))
