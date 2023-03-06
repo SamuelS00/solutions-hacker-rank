@@ -1,4 +1,4 @@
-def hurdleRace(k, height):
+def hurdle_race(k, height):
     higher_number = max(height) if len(height) > 0 else 0
     potions = higher_number - k
 
@@ -9,6 +9,6 @@ def hurdleRace(k, height):
 
 
 if __name__ == "__main__":
-    print(hurdleRace(4, [1, 6, 3, 5, 2]))
-    print(hurdleRace(7, [2, 5, 4, 5, 2]))
-    print(hurdleRace(7, []))
+    print(hurdle_race(4, [1, 6, 3, 5, 2]))
+    print(hurdle_race(7, [2, 5, 4, 5, 2]))
+    print(hurdle_race(7, []))
